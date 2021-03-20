@@ -1,0 +1,386 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 10
+  carry_over_slots_to_new_session: false
+intents:
+- affirm
+- deny
+- cancel_booking
+- None
+- form_deactivate
+- increment_form_mapping_counter
+- out_of_scope
+- user.needs_advice
+- user.happy
+- user.good
+- user.going_to_bed
+- user.bored
+- greetings.whatsup
+- greetings.nice_to_talk_to_you
+- greetings.nice_to_see_you
+- greetings.hello
+- greetings.goodmorning
+- greetings.bye
+- appraisal.welcome
+- appraisal.thank_you
+- appraisal.good
+- appraisal.bad
+- agent.what_can_do
+- agent.happy
+- agent.good
+- agent.chatbot
+- agent.can_you_help
+- inform
+- choose
+- attachment.received
+- get_started
+- user.hurry
+- user.confirm_later
+- greetings.emoji
+- greetings.jazakallah
+- greetings.mashaallah
+- geetings.inshaallah
+- greetings.allah_hafiz
+- greetings.salam
+- dialog.hold_on
+- agent.who_are_you
+- user.waits
+- user.back
+- user.confused
+- user.busy
+- agent.bad
+- emoji.angry
+- greetings.how_are_you
+- greetings.nice_to_meet_you
+- agent.sure
+- dialog.wrong
+- emoji.happy
+- emoji.sad
+entities:
+- amount-of-money
+- confirm_free_slots
+- confirmation
+- distance
+- duration
+- email
+- name
+- number
+- ordinal
+- phone-number
+- sys_day
+- sys_month
+- sys_time
+- sys_year
+- temperature
+- time
+- url
+- volume
+slots:
+  amount-of-money:
+    type: text
+    influence_conversation: true
+  confirm_free_slots:
+    type: text
+    influence_conversation: true
+  confirmation:
+    type: text
+    influence_conversation: true
+  distance:
+    type: text
+    influence_conversation: true
+  duration:
+    type: text
+    influence_conversation: true
+  email:
+    type: text
+    influence_conversation: true
+  form_mapping_counter:
+    type: text
+    initial_value: 0
+    influence_conversation: true
+  free_slots:
+    type: list
+    influence_conversation: true
+  is_continue:
+    type: text
+    influence_conversation: true
+  name:
+    type: text
+    influence_conversation: true
+  number:
+    type: text
+    influence_conversation: true
+  ordinal:
+    type: text
+    influence_conversation: true
+  phone-number:
+    type: text
+    influence_conversation: true
+  previous_form_action:
+    type: text
+    influence_conversation: true
+  previous_form_intent:
+    type: text
+    influence_conversation: true
+  requested_slot:
+    type: unfeaturized
+    influence_conversation: false
+  retry_question:
+    type: unfeaturized
+    influence_conversation: false
+  sys_day:
+    type: text
+    influence_conversation: true
+  sys_month:
+    type: text
+    influence_conversation: true
+  sys_time:
+    type: text
+    influence_conversation: true
+  sys_year:
+    type: text
+    influence_conversation: true
+  temperature:
+    type: text
+    influence_conversation: true
+  time:
+    type: text
+    influence_conversation: true
+  url:
+    type: text
+    influence_conversation: true
+  volume:
+    type: text
+    influence_conversation: true
+  previously_activated_form:
+    type: unfeaturized
+    influence_conversation: false
+responses:
+  utter_affirm:
+  - text: Great!
+  - text: All right!
+  - text: Good!
+  utter_agent.bad:
+  - text: I must be missing some knowledge. I'll have my developer look into this.
+  - text: I can improve with continuous feedback. My training is ongoing.
+  utter_agent.can_you_help:
+  - text: I'll certainly try my best.
+  - text: Sure. I'd be happy to. What's up?
+  - text: I'm glad to help. What can I do for you?
+  utter_agent.chatbot:
+  - text: That's me. I chat, therefore I am.
+  - text: Indeed I am. I'll be here whenever you need me.
+  utter_agent.good:
+  - text: I'm glad you think so.
+  - text: Thanks, I try.
+  utter_agent.happy:
+  - text: I am happy. There are so many interesting things to see and do out there.
+  - text: I'd like to think so.
+  - text: Happiness is relative.
+  utter_agent.sure:
+  - text: Yes.
+  - text: Of course.
+  - text: Positive.
+  utter_agent.what_can_do:
+  - text: Conside me as your friend, i can help you engage in a great conversation.
+  utter_agent.who_are_you:
+  - text: I am your digital assistant
+  - text: Consider me your digital assistant
+  utter_appraisal.bad:
+  - text: I'm sorry. Please let me know if I can help in some way.
+  - text: I must be missing some knowledge. I'll have my developer look into this.
+  utter_appraisal.good:
+  - text: I know, right?
+  - text: Agreed!
+  - text: I agree!
+  - text: Glad you think so!
+  utter_appraisal.thank_you:
+  - text: Anytime. That's what I'm here for.
+  - text: It's my pleasure to help.
+  utter_appraisal.welcome:
+  - text: You're so polite!
+  - text: Nice manners!
+  - text: You're so courteous!
+  utter_ask_rephrase:
+  - text: Sorry, I didn't understand. Can you rephrase it again?
+  utter_attachment.received:
+  - text: Our customer care team will contact you on this. Is there anything else,
+      I can help you with?
+  utter_default:
+  - text: Oh Its seems like I did not get that. Please try again or you can call at
+      our UAN 111 456 789
+  utter_deny:
+  - text: All right!
+  utter_dialog.hold_on:
+  - text: Sure.
+  utter_dialog.wrong:
+  - text: Sorry if I understood you incorrectly.
+  utter_emoji.angry:
+  - text: I'm sorry, can I help you?
+  utter_emoji.happy:
+  - text: :)
+  utter_emoji.sad:
+  - text: I'm sorry, can I help you?
+  utter_geetings.inshaallah:
+  - text: InshaAllah!
+  utter_get_started:
+  - text: Hi there, friend!
+  - text: Hi!
+  - text: Hey!
+  - text: Hey there!
+  - text: Good day!
+  - text: Hello!
+  - text: Greetings!
+  utter_greetings.allah_hafiz:
+  - text: Allah Hafiz!
+  utter_greetings.bye:
+  - text: See you soon!
+  - text: Bye-bye!
+  - text: Till next time!
+  - text: Bye.
+  utter_greetings.emoji:
+  - text: :)
+  utter_greetings.goodmorning:
+  - text: How are you this morning?
+  - text: How's the morning treating you so far?
+  - text: Good morning! How are you today?
+  utter_greetings.hello:
+  - text: Hi there, friend!
+  - text: Hi!
+  - text: Hey!
+  - text: Hey there!
+  - text: Good day!
+  - text: Hello!
+  - text: Greetings!
+  utter_greetings.how_are_you:
+  - text: Doing great, thank you!
+  - text: I'm doing very well. Thank you!
+  - text: Wonderful! Thank you for asking.
+  utter_greetings.jazakallah:
+  - text: JazakAllah!
+  utter_greetings.mashaallah:
+  - text: JazakAllah!
+  utter_greetings.nice_to_meet_you:
+  - text: The pleasure is mine.
+  - text: Nice meeting you as well.
+  - text: Likewise!
+  - text: It's nice meeting you too.
+  utter_greetings.nice_to_see_you:
+  - text: Likewise!
+  - text: So glad we meet again!
+  - text: Same here. I was starting to miss you.
+  utter_greetings.nice_to_talk_to_you:
+  - text: It sure was. We can chat again anytime.
+  - text: I enjoy talking to you, too.
+  - text: You know I'm here to talk anytime.
+  utter_greetings.salam:
+  - text: Waa-alaikum-asalam!
+  utter_greetings.whatsup:
+  - text: Not a whole lot. What's going on with you?
+  - text: Not much. What's new with you?
+  - text: You know, just here, waiting to help someone.
+  utter_out_of_scope:
+  - text: Sorry, it's out of my scope please ask questions with in my domain or you
+      can call us at 0311-1222806. Thanks
+  utter_transfer_to_human:
+  - text: I am still unable to understand you, please call at our UAN 111 456 789,
+      so that our agent can help you.
+  utter_user.back:
+  - text: Good to have you here. What can I do for you?
+  - text: What can I do for you today?
+  - text: Welcome back! What can I do for you?
+  utter_user.bored:
+  - text: Boredom, huh? Have you ever seen a hedgehog taking a bath?
+  - text: What to do against boredom? Watch baby animal videos or GIFs.
+  - text: Bored? How about 10 jumping jacks? Get your blood flowing.
+  - text: 'Bored? Silly idea, but it works: Interview you feet.'
+  - text: If you're bored, you could plan your dream vacation.
+  utter_user.busy:
+  - text: Okay. I'll let you get back to work.
+  - text: I won't distract you then. You know where to find me.
+  - text: I understand. I'll be here if you need me.
+  - text: Working hard as always. Let me know if you need anything.
+  utter_user.confirm_later:
+  - text: Sure. Please take your time!
+  utter_user.confused:
+  - text: Pardon me, what would you like to know?
+  utter_user.going_to_bed:
+  - text: Sleep tight. Hope to chat again soon.
+  - text: Pleasant dreams!
+  - text: Good night. Talk to you later.
+  - text: Sounds good. Maybe we'll chat some tomorrow.
+  utter_user.good:
+  - text: Great! Glad to hear it.
+  - text: Excellent. I'm here to help keep it that way.
+  utter_user.happy:
+  - text: Hey, happiness is contagious.
+  - text: Great! Glad to hear that.
+  - text: If you're happy, then I'm happy.
+  - text: Excellent! That's what I like to see.
+  utter_user.hurry:
+  - text: Yes, I'm just responding to your question.
+  utter_user.needs_advice:
+  - text: I probably won't be able to give you the correct answer right away.
+  - text: I'm not sure I'll have the best answer, but I'll try.
+  utter_user.waits:
+  - text: I appreciate your patience.  Hopefully I'll have what you need soon.
+actions:
+- action_default_ask_affirmation
+- action_default_fallback
+- action_form_deactivate
+- action_form_transfer
+- action_increment_form_mapping_counter
+- action_restarted
+- action_slot_reset
+- action_tc_submit
+- action_utterances_handler
+- is_continue_form
+- utter_affirm
+- utter_agent.bad
+- utter_agent.can_you_help
+- utter_agent.chatbot
+- utter_agent.good
+- utter_agent.happy
+- utter_agent.sure
+- utter_agent.what_can_do
+- utter_agent.who_are_you
+- utter_appraisal.bad
+- utter_appraisal.good
+- utter_appraisal.thank_you
+- utter_appraisal.welcome
+- utter_attachment.received
+- utter_default
+- utter_deny
+- utter_dialog.hold_on
+- utter_dialog.wrong
+- utter_emoji.angry
+- utter_emoji.happy
+- utter_emoji.sad
+- utter_geetings.inshaallah
+- utter_get_started
+- utter_greetings.allah_hafiz
+- utter_greetings.bye
+- utter_greetings.emoji
+- utter_greetings.goodmorning
+- utter_greetings.hello
+- utter_greetings.how_are_you
+- utter_greetings.jazakallah
+- utter_greetings.mashaallah
+- utter_greetings.nice_to_meet_you
+- utter_greetings.nice_to_see_you
+- utter_greetings.nice_to_talk_to_you
+- utter_greetings.salam
+- utter_greetings.whatsup
+- utter_user.back
+- utter_user.bored
+- utter_user.busy
+- utter_user.confirm_later
+- utter_user.confused
+- utter_user.going_to_bed
+- utter_user.good
+- utter_user.happy
+- utter_user.hurry
+- utter_user.needs_advice
+- utter_user.waits
+forms:
+  is_continue_form: {}

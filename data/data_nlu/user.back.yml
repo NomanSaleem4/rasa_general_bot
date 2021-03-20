@@ -1,0 +1,18 @@
+version: "2.0"
+nlu:
+- intent: user.back
+  examples: |
+    - boss is back
+    - i am back
+    - i'm here again
+    - here i am again
+    - i got back
+    - i came back
+    - i have returned
+    - i am right back
+    - i'm rb
+    - i'm here
+    - i'm back again
+    - am back
+    - i'm back
+    - look who is back

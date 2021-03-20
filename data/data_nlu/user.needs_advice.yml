@@ -1,0 +1,81 @@
+version: "2.0"
+nlu:
+- intent: user.needs_advice
+  examples: |
+    - what should i do about it
+    - any suggestions
+    - what do you recommend
+    - give me a wise advice
+    - i need advice
+    - any advice
+    - do you have any advice for me
+    - advise me
+    - what should i do
+    - can i ask for your advice
+    - can you advise me
+    - guide me
+    - can you give me advice
+    - can you offer any advice
+    - give me some advice about
+    - give me some good advice
+    - help me with advice
+    - i could use some advice
+    - i need an advice from you
+    - i seek your advice
+    - what can you recommend
+    - what do you suggest
+    - what is your advice
+    - there is confusion, pls guide em
+    - i need u to guide me
+    - i think there is some confusion, u shud guide me
+    - there is sum confusion pls guide em
+    - pls guide
+    - guidence psl
+    - i need gidance
+    - can u guide me
+    - can you guide me a bit?
+    - lol actually thre is some confusion can you guide me a bit
+    - guidnace chahiay
+    - mjy guide karin
+    - curie per advise karin
+    - qury hai, advice dein
+    - can you advise me regarding query
+    - i want some advice
+    - guide me pls
+    - wiaitg for ur gidance
+    - i iz waiting for ur guidence
+    - could u guide
+    - could you guide me pls
+    - can you please guide me
+    - pls help me
+    - i need your help in makig a decision
+    - i need your help in deciding
+    - i woud like to get your assistance
+    - i need your help with a query
+    - i would like your hlep with a query
+    - can you help me with a query pls
+    - i need help with a query pls
+    - could you help me out with a query
+    - i need help with a query
+    - hey i have a query
+    - will u give ur support
+    - ur support is needed pls
+    - ur support is needed
+    - will u support me in makign ny decision
+    - i need your support in making my decision pls
+    - need your support in making my decision please
+    - i need your support
+    - need your support
+    - mere help karin
+    - merey help karin
+    - mjy help karin
+    - bro u gotta help me
+    - dude u have to help
+    - dude i need ur help
+    - aoa bro i need ur help
+    - help me with a question
+    - help me with a query
+    - i want to have a question answered
+    - mere aik query hai
+    - mera aik sawal hai
+    - i have a question

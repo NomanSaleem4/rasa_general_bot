@@ -1,0 +1,31 @@
+version: "2.0"
+nlu:
+- intent: user.confirm_later
+  examples: |
+    - let me weigh my options first
+    - will inform u later
+    - will infrom u after thinking
+    - sir soch kar will inform u
+    - bhai tujay soch kar bataon ga
+    - acha bhai sochun ga
+    - sochun ga
+    - lemme think abt it first
+    - i would like to think about it first
+    - i wanna think about it first
+    - pehlay sochnay dein
+    - sochnay dein pehlay
+    - soch samj kar batadun ga
+    - thora soch samj kar bataoon ga
+    - hmm. lemme thinkj
+    - hmm...let me think about it
+    - hmm i'll confirm later
+    - hmm i'll tell you later
+    - mei abhi sochu ga
+    - mei soch kar bataon ga
+    - mein soch kar bataon ga
+    - i'll definitely think about it
+    - let me think about it
+    - i'll think abt it
+    - i'll think about it
+    - i would like to confirm later
+    - i will confirm later

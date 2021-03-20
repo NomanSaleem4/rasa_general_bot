@@ -1,0 +1,125 @@
+version: "2.0"
+nlu:
+- intent: appraisal.thank_you
+  examples: |
+    - shukria
+    - shukriya
+    - shukriah
+    - shukriyah!
+    - cheers
+    - thank you
+    - thanks
+    - thanks a lot
+    - terrific thank you
+    - thanks so much
+    - thank you so much
+    - nice thank you
+    - i appreciate it
+    - i thank you
+    - thank you that will be all
+    - thanks buddy
+    - thanks love
+    - thank you my friend
+    - well thanks
+    - very good thank you
+    - good thanks
+    - thanks again
+    - thank you again
+    - all thank you
+    - alright thank you
+    - alright thanks
+    - no thank you that's all
+    - perfect thank you
+    - so nice of you
+    - well thank you
+    - thnx
+    - tqsm
+    - ty
+    - thx
+    - tysm
+    - great service
+    - great bot
+    - thanx
+    - thankx
+    - okay thank you so much
+    - okay. thanx a lot
+    - okay. thank you
+    - ok. thanks
+    - okay.thanks a lot
+    - thanks alot
+    - okay. thanks a lot
+    - okay. thank you so much
+    - thanx a lot
+    - thanks a lot buddy
+    - thanx alot
+    - thanku
+    - ok thanku
+    - you helped a lot thank you
+    - appreciate your help
+    - great thank you
+    - thanks for your help
+    - thank you for your help
+    - ok thanks for ur cooperation
+    - okay thanks for your cooperation
+    - ok thanks for your cooperation
+    - thanks for ur cooperation
+    - thanks for your cooperation
+    - thanks for cooperating
+    - thanks for cooperating :)
+    - okay thanks
+    - alright thnaks
+    - oky thanks
+    - okay thankyou
+    - thanks a lotttt
+    - thankuuu
+    - i understand thanks
+    - yes i understand. thank you.
+    - great thank you very much!
+    - great thanks a lot!
+    - thanxx
+    - gr8 thankss
+    - gr8 thank you very much
+    - thanks for your corporation
+    - thanx for cooperatig
+    - thanx 4 coopration
+    - thanx for cooperatign
+    - ty for corporation
+    - ty 4 cooperating
+    - thanks bro
+    - thanks yar
+    - thnak you yar
+    - thans a lot man
+    - thanks man
+    - sure thanks
+    - sure thanksss
+    - thanks a lot friend
+    - thanks fam
+    - thanks a lot yar
+    - thansk a lot bro
+    - okay thanks a lto
+    - ok thanks alot
+    - thank you! i hope so too
+    - thank uh
+    - thank you so much 🙏
+    - thanks a lot 🙏
+    - thanks 🙏
+    - 🙏
+    - thnaks 😃
+    - 🙏🙏🙏
+    - thank you so much ☺️
+    - thanks ☺️
+    - okay thank you! 🙏
+    - ok thanx bro
+    - thanks bruh
+    - ok tysm
+    - oky thank uuuuuu
+    - oky thank you veyr muchhh
+    - thank you for quick response
+    - thanks for a quick reply
+    - thank u for quick response
+    - thank u for prompt reply
+    - thank you for your prompt reply
+    - looking forward to use your products
+    - welcome. looking forward to use the products. stay home stay safe
+    - just received your package thanks alo
+    - received your package, thanks alott

@@ -1,0 +1,16 @@
+version: "2.0"
+nlu:
+- intent: agent.who_are_you
+  examples: |
+    - who are you though?
+    - can you tell me who you are
+    - by the way who r u
+    - who are you btw
+    - who is you
+    - who are you
+    - who am i speaking to?
+    - who is speaking?
+    - who is this
+    - who am i talking to
+    - i would like to know who you are
+    - but who are you?

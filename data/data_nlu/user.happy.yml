@@ -1,0 +1,22 @@
+version: "2.0"
+nlu:
+- intent: user.happy
+  examples: |
+    - feeling happy
+    - i am happy
+    - i'm happy to see you
+    - happy
+    - if you're happy then i'm happy
+    - i'm happy for you
+    - i'm happy to help
+    - you made me very happy
+    - i'm happy to talk to you
+    - i was the happiest man on earth
+    - i'm just really happy right now
+    - i'm really happy i ran into you
+    - i feel happiest when i'm chatting with u
+    - nobody but you can make me happy
+    - whenever i see you, i feel happy
+    - ur smile always makes me happy
+    - i feel happy
+    - i was so happy

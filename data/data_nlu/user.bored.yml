@@ -1,0 +1,30 @@
+version: "2.0"
+nlu:
+- intent: user.bored
+  examples: |
+    - im bored
+    - bored
+    - so bored
+    - i am bored
+    - im bored help me
+    - im really bored can you entertain
+    - i am so bored
+    - soo bored
+    - that was boring
+    - i'm bored
+    - boring
+    - i am getting bored
+    - staying at home is boring
+    - very boring
+    - it bores me
+    - i had a slow day
+    - i am very bored
+    - im kinda bored today
+    - i've never been more bored
+    - i was bored
+    - it's boring
+    - this is boring
+    - we're all bored
+    - it's very boring
+    - i'm already bored
+    - i'm bored out of my mind

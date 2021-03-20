@@ -1,0 +1,80 @@
+version: "2.0"
+nlu:
+- intent: greetings.how_are_you
+  examples: |
+    - how is your morning so far
+    - how are you getting on
+    - how's your day going
+    - is everything all right
+    - how are you doing?
+    - how are the things going
+    - are you alright
+    - how are you feeling
+    - how are you going?
+    - is everything okay
+    - how are you today?
+    - how do you do?
+    - how do you feel?
+    - how is it going?
+    - how is your day
+    - how is your day going
+    - how is your evening
+    - how was your day
+    - are you having a good day
+    - hope your day is going well
+    - hope you re having a pleasant evening
+    - how's life?
+    - i'm fine and you
+    - how is your life
+    - how has your day been
+    - how is your morning going
+    - how has your day been going
+    - how about you?
+    - how is your day being
+    - how is your day going on
+    - how your day is going
+    - what was your day like
+    - what about your day
+    - how's your day
+    - how are you doing this morning
+    - how are you
+    - i'm good you?
+    - im good. you?
+    - i am good . how about you?
+    - i am good and you ?
+    - i am good! u?
+    - i am good you?
+    - i am good what about you?
+    - how are u doign
+    - app kaisay han
+    - kaisay han aap
+    - how are yiu fam
+    - how are u fam
+    - how r u doing fam
+    - how u doing fam
+    - how u doing dam
+    - kay haal tera
+    - kay haal thwada
+    - aap apna haal bataein
+    - haal ahwal kaisay han
+    - kya haal shaal?
+    - haal ahwaal?
+    - bhai kya haal ahwaal
+    - bhai kya kara hai tu
+    - bhai tun kaisa hai
+    - bhai kya halat hai tere
+    - bhai kya halat han terey
+    - bhai kaisa hai tun
+    - bhai kya haal hai tera
+    - bhai tera kya haal hai
+    - kya haal shal
+    - brother how have u been
+    - bro how r u
+    - bro how u doing
+    - brother how are you
+    - kaisay han aap?
+    - how have you been?
+    - aoa. how r u
+    - aoa. how are you doing?
+    - how are you?
+    - hey! how are you?

@@ -1,0 +1,16 @@
+version: "2.0"
+nlu:
+- intent: user.going_to_bed
+  examples: |
+    - let's go to bed
+    - i'd like to go to bed
+    - is it time for bed yet
+    - it's time to go to bed
+    - time for us to go to bed
+    - i'm going to bed
+    - i'm a little tired and i want to go to bed
+    - it's bed time
+    - going to bed now
+    - gonna go to bed
+    - time to sleep
+    - i sometimes feel drowsy in the early afternoon

@@ -1,0 +1,32 @@
+version: "2.0"
+nlu:
+- intent: agent.bad
+  examples: |
+    - you are bad
+    - you are useless
+    - you are horrible
+    - you are a waste of time
+    - you are disgusting
+    - you are lame
+    - you are no good
+    - you're bad
+    - you're awful
+    - you are not cool
+    - you are so bad
+    - you are so useless
+    - you are very bad
+    - you are waste
+    - you're not very good
+    - you're terrible
+    - you're the worst
+    - you are really the worst bot ever
+    - why are you this lame?
+    - this is a really frustrating experience
+    - shit bot
+    - shit bot you are
+    - thats totally un fair mr bot
+    - silly bot
+    - you are a stupid bot
+    - i hate you
+    - bots are bad
+    - i dont like bots

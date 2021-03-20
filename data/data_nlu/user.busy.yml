@@ -1,0 +1,25 @@
+version: "2.0"
+nlu:
+- intent: user.busy
+  examples: |
+    - busy right now
+    - i'm overloaded
+    - i have no time
+    - i'm busy
+    - i'm swamped
+    - i got things to do
+    - how busy i am
+    - i got work to do
+    - i'm working
+    - i don't have time for this
+    - i'm super busy
+    - i'm working right now
+    - i'm busy right now and can't play with you
+    - i have rather a busy afternoon in front of me
+    - i am too busy
+    - i am very busy
+    - i'm a bit busy
+    - i'm a busy man
+    - quite busy
+    - i'm kind of busy
+    - i'll see you later

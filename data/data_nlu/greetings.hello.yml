@@ -1,0 +1,89 @@
+version: "2.0"
+nlu:
+- intent: greetings.hello
+  examples: |
+    - long time no see
+    - hello
+    - hi
+    - howdy
+    - hey there
+    - hey
+    - greetings
+    - i greet you
+    - hi there
+    - hello there
+    - lovely day isn't it
+    - hello again
+    - just going to say hi
+    - a good day
+    - afternoon
+    - hello hi
+    - heya
+    - hey man
+    - hey buddy
+    - oka
+    - yo man
+    - hola
+    - mr bot
+    - sweet heart
+    - hellooo
+    - hii
+    - hiii
+    - any body there
+    - heythere
+    - heello
+    - helo there
+    - heyy
+    - helllo
+    - hello!
+    - hi, buddy
+    - hi, anyone out there
+    - hi, there
+    - hi...there
+    - hi...how have u been
+    - hi.. there
+    - hi...how are u
+    - hi how are you
+    - hi you
+    - hie
+    - helo
+    - heloooo
+    - heleww
+    - hello bro
+    - hello sir
+    - helo bro
+    - helo sir
+    - bro?
+    - yooo bro
+    - yooo
+    - hellow
+    - hellew
+    - hallo
+    - hallo sir
+    - hi there!
+    - hello there!
+    - yo bro
+    - hey yaa
+    - hellooooo
+    - heyyy
+    - hi bro
+    - hey bro
+    - hey sir
+    - hello boss
+    - hi sir
+    - hello jnb
+    - h
+    - hello janab
+    - hey broski
+    - hey guyzz
+    - hey guys
+    - hey jnb
+    - hey janab
+    - batt sunain
+    - sir sunen
+    - sir sunein
+    - sir sunain
+    - hy aoa
+    - hy
+    - maa'm
+    - hello maa'm

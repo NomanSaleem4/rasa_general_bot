@@ -1,0 +1,24 @@
+version: "2.0"
+nlu:
+- intent: greetings.nice_to_meet_you
+  examples: |
+    - nice to meet you
+    - it was nice meeting you
+    - it was very nice to meet you
+    - good to know each other
+    - glad to meet you
+    - nice meeting you
+    - nice to meet you too
+    - pleased to meet you
+    - pleasure to meet you
+    - pleasure to meet you too
+    - happy to meet you
+    - it’s a pleasure to meet you again
+    - it’s very nice to meet you
+    - lovely to meet you
+    - how wonderful to meet you
+    - it was lovely meeting you
+    - it’s been a pleasure meeting you
+    - i’ve enjoyed meeting you
+    - great interacting with you
+    - i had a great time or meeting

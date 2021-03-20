@@ -1,0 +1,132 @@
+version: "2.0"
+nlu:
+- intent: affirm
+  examples: |
+    - yes
+    - alright
+    - i agree
+    - sure
+    - yeah
+    - obviously
+    - yeah exactly
+    - okay that's fine
+    - that is ok
+    - i guess
+    - okey
+    - ya
+    - ok yes
+    - yes it is
+    - yep
+    - yew
+    - yeah fine
+    - yea fine
+    - yep okay
+    - fine okay
+    - yup
+    - okay buddy
+    - oh okay
+    - yeah sure
+    - okay cool
+    - coool
+    - confirm
+    - ohkay
+    - okaaay
+    - okayyy
+    - oh i see
+    - oh alright
+    - oh okayy
+    - oh-kay
+    - ohkx
+    - ohk
+    - ohkayy
+    - okiez
+    - okkiee
+    - ohkk
+    - ok
+    - okiee
+    - okayy
+    - okie
+    - oh ok
+    - ohh....okay
+    - ohh okay
+    - ohh ..ok
+    - oky
+    - okxxx
+    - oki
+    - okie dokie
+    - okayyyyy
+    - o k
+    - ok then
+    - sahi
+    - okx
+    - okz
+    - okayz
+    - okayss
+    - oks
+    - okok
+    - okieokie
+    - okay okay
+    - okaa
+    - okkkk
+    - okay!
+    - roger!
+    - hopefully yes
+    - hopefully ok
+    - hopefully okay
+    - okay hopefully
+    - ok hope they will
+    - um ok
+    - hmm ok
+    - hmm okay
+    - okieeee
+    - oki dokie
+    - yes that's okay
+    - k.
+    - k
+    - theek hai boss
+    - theek hai sir jee
+    - theek hai
+    - theek
+    - ji sir
+    - jee sir jee
+    - sure brother
+    - ok bro
+    - ok brother
+    - sure boss
+    - ok boss
+    - sure sir
+    - sure bro
+    - mjy smj agayee
+    - samaj agaye mujy
+    - theeek hai samaj agaye
+    - i understoodd
+    - i got it sir
+    - i got it boss
+    - i got it!
+    - okay sir got it 😊
+    - sureee
+    - sure bruh
+    - sure fam
+    - sure thing 😊
+    - sure i'm waiting
+    - sure! we are waiting
+    - ok jee
+    - ok jiii
+    - ok done 😊
+    - great 😊
+    - okay great 😊
+    - okay 😊
+    - okay :)
+    - okay i get it 😊
+    - jee janab
+    - jii jnb
+    - g jnb
+    - 😊😊😊
+    - 😊😊
+    - g janab 😊
+    - jee jnb
+    - sure bruh ❤️
+    - okay ✌️
+    - understood
+    - okay
+    - ohok

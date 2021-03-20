@@ -1,0 +1,24 @@
+version: "2.0"
+nlu:
+- intent: agent.happy
+  examples: |
+    - are you happy?
+    - you are happy
+    - you're very happy
+    - you're really happy
+    - you're so happy
+    - how happy you are?
+    - you're extremely happy
+    - you're full of happiness
+    - are you happy now?
+    - are you happy today?
+    - are you happy with me?
+    - i think you are happy
+    - you seem to be happy
+    - i feel i made you happy
+    - i wonder if you are truly happy
+    - you don't look very happy today
+    - you seem happy
+    - were you happy?
+    - u seemed to have been very happy
+    - you look very happy this morning?

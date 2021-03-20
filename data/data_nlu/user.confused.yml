@@ -1,0 +1,28 @@
+version: "2.0"
+nlu:
+- intent: user.confused
+  examples: |
+    - kya?
+    - hain?
+    - come again?
+    - i dun geddit
+    - what you saying
+    - whaaat
+    - i dont get it
+    - idk
+    - what does that mean
+    - what do you mean?
+    - what are you saying
+    - i dont understand
+    - oh?
+    - wat
+    - wut
+    - huh
+    - what
+    - what do u mean
+    - what does that mean?
+    - what how
+    - how is that
+    - why is that
+    - how?
+    - why

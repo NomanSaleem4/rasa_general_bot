@@ -1,0 +1,37 @@
+version: "2.0"
+nlu:
+- intent: greetings.whatsup
+  examples: |
+    - what is on your mind?
+    - what's happened
+    - what is up
+    - what's up
+    - whazzup
+    - sup?
+    - good what's up
+    - i said what's up
+    - then what's up
+    - what's shaking
+    - wassup
+    - what are you doing?
+    - what is going on
+    - what is happening
+    - what's cracking
+    - what's cooking
+    - hey what's up
+    - what's up today
+    - oh what happened?
+    - what are you upto?
+    - hey buddy wassup
+    - sup then
+    - so wassup
+    - buddy sup
+    - what is up with you these days?
+    - what you upto?
+    - then?
+    - wassup yo
+    - sup yo
+    - wassap yo
+    - kya hai?
+    - kiya go
+    - kiya hai?

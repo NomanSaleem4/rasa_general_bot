@@ -1,0 +1,15 @@
+version: "2.0"
+nlu:
+- intent: deny
+  examples: |
+    - no
+    - not agree
+    - dont
+    - do not
+    - never
+    - nay
+    - dont agree
+    - no way
+    - no not this time
+    - no its not suitable
+    - mera pass itna paisa nahi hai

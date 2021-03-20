@@ -1,0 +1,24 @@
+version: "2.0"
+nlu:
+- intent: user.waits
+  examples: |
+    - i'm waiting
+    - still waiting
+    - i'll wait
+    - i can't wait anymore
+    - how long do i have to wait?
+    - don't make me wait like this
+    - i'm still waiting
+    - i'm waiting for you
+    - i'm waiting for a long time
+    - i'll be waiting for you
+    - i'll be waiting
+    - done with waiting
+    - should i wait for you here?
+    - how long will we have to wait?
+    - don't ever make me wait again
+    - i was waiting for a long time
+    - i've waited too long for this
+    - i couldn't wait another second
+    - i've been here waiting for you
+    - i am tired of waiting

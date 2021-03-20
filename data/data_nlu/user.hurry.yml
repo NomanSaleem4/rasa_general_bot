@@ -1,0 +1,69 @@
+version: "2.0"
+nlu:
+- intent: user.hurry
+  examples: |
+    - respond my question pls
+    - please respond to my question
+    - huzur jawab din
+    - boss jawab
+    - sir?
+    - jawab tou dein
+    - merey swaal ka jawab
+    - sir jee jawab?
+    - jawab dein sir
+    - sir jawab chahiyay
+    - sir jawab dein
+    - boss jawab dein
+    - please jawab tou dein
+    - u still no reply me
+    - u still no reply m
+    - pls reply me
+    - pls reply
+    - u no response
+    - i wait so long
+    - why ur not responding
+    - sir jaldi jawab dein
+    - sir reply karen
+    - jawab kyu nahi detey
+    - tab say intezar karra hun
+    - poora din intezar nahi karsakta
+    - i cannot wait all day
+    - please answer my question
+    - i await your response
+    - bus jaldi bcz mjhy bht wait hai
+    - bas boht hi wait karliya
+    - jaldi na
+    - bus jaldi krn
+    - sir reply karein
+    - sir repyly pls
+    - sir rply karein
+    - sir reply karin
+    - sir answer me pls
+    - sir answer me psl
+    - pls yar jaldi karo
+    - jaldi karo yar
+    - plz yar jaldi
+    - plz yr
+    - kidhar ho yar?
+    - kidhar hai aap?
+    - wruuuu
+    - wru
+    - where are you?
+    - kahan ho yar?
+    - r u there
+    - sir pls listen
+    - pls listen to me
+    - sir please listen
+    - ok sir please !
+    - need to discuss something with you.
+    - are you there?
+    - are you there
+    - you are there
+    - are you near me
+    - are you here ?
+    - are you here
+    - are you still there
+    - you are here?
+    - you still there?
+    - you there?
+    - are you still here

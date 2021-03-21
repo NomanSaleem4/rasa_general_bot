@@ -3,204 +3,157 @@ rules:
 - rule: Rule to map `affirm` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: affirm
-  - action: action_utterances_handler
+  - action: utter_affirm
 - rule: Rule to map `deny` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: deny
-  - action: action_utterances_handler
-- rule: Rule to map `None` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: None
-  - action: action_utterances_handler
-- rule: Rule to map `form_deactivate` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: form_deactivate
-  - action: action_utterances_handler
-- rule: Rule to map `increment_form_mapping_counter` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: increment_form_mapping_counter
-  - action: action_utterances_handler
+  - action: utter_deny
+
 - rule: Rule to map `out_of_scope` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: out_of_scope
-  - action: action_utterances_handler
+  - action: utter_out_of_scope
 - rule: Rule to map `user.needs_advice` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: user.needs_advice
-  - action: action_utterances_handler
+  - action: utter_user.needs_advice
 - rule: Rule to map `user.happy` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: user.happy
-  - action: action_utterances_handler
+  - action: utter_user.happy
 - rule: Rule to map `user.good` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: user.good
-  - action: action_utterances_handler
+  - action: utter_user.good
 - rule: Rule to map `user.going_to_bed` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: user.going_to_bed
-  - action: action_utterances_handler
+  - action: utter_user.going_to_bed
 - rule: Rule to map `user.bored` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: user.bored
-  - action: action_utterances_handler
+  - action: utter_user.bored
 - rule: Rule to map `greetings.whatsup` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: greetings.whatsup
-  - action: action_utterances_handler
+  - action: utter_greetings.whatsup
 - rule: Rule to map `greetings.nice_to_talk_to_you` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: greetings.nice_to_talk_to_you
-  - action: action_utterances_handler
+  - action: utter_greetings.nice_to_talk_to_you
 - rule: Rule to map `greetings.nice_to_see_you` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: greetings.nice_to_see_you
-  - action: action_utterances_handler
+  - action: utter_greetings.nice_to_see_you
 - rule: Rule to map `greetings.hello` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: greetings.hello
-  - action: action_utterances_handler
+  - action: utter_greetings.hello
 - rule: Rule to map `greetings.goodmorning` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: greetings.goodmorning
-  - action: action_utterances_handler
+  - action: utter_greetings.goodmorning
 - rule: Rule to map `greetings.bye` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: greetings.bye
-  - action: action_utterances_handler
+  - action: utter_greetings.bye
 - rule: Rule to map `appraisal.welcome` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: appraisal.welcome
-  - action: action_utterances_handler
+  - action: utter_appraisal.welcome
 - rule: Rule to map `appraisal.thank_you` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: appraisal.thank_you
-  - action: action_utterances_handler
+  - action: utter_appraisal.thank_you
 - rule: Rule to map `appraisal.good` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: appraisal.good
-  - action: action_utterances_handler
+  - action: utter_appraisal.good
 - rule: Rule to map `appraisal.bad` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: appraisal.bad
-  - action: action_utterances_handler
+  - action: utter_appraisal.bad
 - rule: Rule to map `agent.what_can_do` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: agent.what_can_do
-  - action: action_utterances_handler
+  - action: utter_agent.what_can_do
 - rule: Rule to map `agent.happy` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: agent.happy
-  - action: action_utterances_handler
+  - action: utter_agent.happy
 - rule: Rule to map `agent.good` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: agent.good
-  - action: action_utterances_handler
+  - action: utter_agent.good
 - rule: Rule to map `agent.chatbot` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: agent.chatbot
-  - action: action_utterances_handler
+  - action: utter_agent.chatbot
 - rule: Rule to map `agent.can_you_help` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: agent.can_you_help
-  - action: action_utterances_handler
+  - action: utter_agent.can_you_help
 - rule: Rule to map `attachment.received` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: attachment.received
-  - action: action_utterances_handler
+  - action: utter_attachment.received
 - rule: Rule to map `get_started` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: get_started
-  - action: action_utterances_handler
+  - action: utter_get_started
 - rule: Rule to map `user.hurry` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: user.hurry
-  - action: action_utterances_handler
+  - action: utter_user.hurry
 - rule: Rule to map `user.confirm_later` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: user.confirm_later
-  - action: action_utterances_handler
-- rule: Rule to map `greetings.emoji` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: greetings.emoji
-  - action: action_utterances_handler
-- rule: Rule to map `greetings.jazakallah` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: greetings.jazakallah
-  - action: action_utterances_handler
-- rule: Rule to map `greetings.mashaallah` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: greetings.mashaallah
-  - action: action_utterances_handler
-- rule: Rule to map `geetings.inshaallah` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: geetings.inshaallah
-  - action: action_utterances_handler
-- rule: Rule to map `greetings.allah_hafiz` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: greetings.allah_hafiz
-  - action: action_utterances_handler
-- rule: Rule to map `greetings.salam` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: greetings.salam
-  - action: action_utterances_handler
+  - action: utter_user.confirm_later
 - rule: Rule to map `dialog.hold_on` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: dialog.hold_on
-  - action: action_utterances_handler
+  - action: utter_dialog.hold_on
 - rule: Rule to map `agent.who_are_you` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: agent.who_are_you
-  - action: action_utterances_handler
+  - action: utter_agent.who_are_you
 - rule: Rule to map `user.waits` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: user.waits
-  - action: action_utterances_handler
+  - action: utter_user.waits
 - rule: Rule to map `user.back` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: user.back
-  - action: action_utterances_handler
+  - action: utter_user.back
 - rule: Rule to map `user.confused` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: user.confused
-  - action: action_utterances_handler
+  - action: utter_user.confused
 - rule: Rule to map `user.busy` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: user.busy
-  - action: action_utterances_handler
+  - action: utter_user.busy
 - rule: Rule to map `agent.bad` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: agent.bad
-  - action: action_utterances_handler
-- rule: Rule to map `emoji.angry` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: emoji.angry
-  - action: action_utterances_handler
+  - action: utter_agent.bad
 - rule: Rule to map `greetings.how_are_you` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: greetings.how_are_you
-  - action: action_utterances_handler
+  - action: utter_greetings.how_are_you
 - rule: Rule to map `greetings.nice_to_meet_you` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: greetings.nice_to_meet_you
-  - action: action_utterances_handler
+  - action: utter_greetings.nice_to_meet_you
 - rule: Rule to map `agent.sure` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: agent.sure
-  - action: action_utterances_handler
+  - action: utter_agent.sure
 - rule: Rule to map `dialog.wrong` intent to `action_utterances_handler` (automatic conversion)
   steps:
   - intent: dialog.wrong
-  - action: action_utterances_handler
-- rule: Rule to map `emoji.happy` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: emoji.happy
-  - action: action_utterances_handler
-- rule: Rule to map `emoji.sad` intent to `action_utterances_handler` (automatic conversion)
-  steps:
-  - intent: emoji.sad
-  - action: action_utterances_handler
+  - action: utter_dialog.wrong
 - rule: Rule to handle messages with low NLU confidence (automated conversion from 'TwoStageFallbackPolicy')
   steps:
   - intent: nlu_fallback
-  - action: action_two_stage_fallback
+  - action: utter_

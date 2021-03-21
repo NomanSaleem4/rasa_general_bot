@@ -32,7 +32,7 @@ pipeline:
   - url
   - time
 - name: DIETClassifier
-  epochs: 50
+  epochs: 30
 - name: FallbackClassifier
   threshold: 0.5
   ambiguity_threshold: 0.1
